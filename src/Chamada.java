@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Chamada {
 Scanner scanner = new Scanner(System.in);
   public void Ligar(){
-    System.out.println("Digite o numero com DD :");
+    System.out.println("Digite o numero com DDD :");
     int numero = scanner.nextInt();
     System.out.println("Sua chamada caiu na caixa posta...");
   }
   public void Atender(){
-    System.out.println("Não tem te ligando no momento, desculpe");
+    System.out.println("Não tem ninguem te ligando no momento, desculpe");
   }
   public void VoiceMail(){
     System.out.println("""
